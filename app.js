@@ -1,3 +1,6 @@
 let f = ['manzana', 'platano']
 
-let 
+f.forEach(fruta => {
+    console.log('La fruta es ', f)
+})
+
