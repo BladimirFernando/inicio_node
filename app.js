@@ -1,6 +1,7 @@
-let f = ['manzana', 'platano']
+const {frutas, money} = require('./frutas')
 
-f.forEach(fruta => {
-    console.log('La fruta es ', f)
+frutas.forEach(fruta => {
+    console.log('La fruta es ', fruta)
 })
 
+console.log('Dinero: ', money)
